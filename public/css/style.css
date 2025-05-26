@@ -773,8 +773,8 @@ button.btn {
 }
 
 .product-detail .product-content .ratting i {
+    font-size: 14px;
     color: #3F69AA;
-    font-size: 18px;
 }
 
 .product-detail .product-content .price {
@@ -1744,4 +1744,49 @@ button.btn {
     .footer-bottom .template-by {
         text-align: center; 
     } 
+}
+
+/* Sao đầy màu vàng */
+.ratting .fa-star {
+    color: #FFD700;
+}
+
+/* Nửa sao màu vàng */
+.ratting .fa-star-half-o {
+    color: #FFD700;
+}
+
+/* Sao rỗng màu xám */
+.ratting .fa-star-o {
+    color: #ccc;
+}
+
+/* Star Rating Colors */
+.ratting i.fa-star,
+.ratting i.fa-star-half-o {
+    color: #FFD700 !important; /* Forced yellow color for filled and half stars */
+}
+
+.ratting i.fa-star-o {
+    color: #ccc !important; /* Forced gray color for empty stars */
+}
+
+/* Product detail page star colors */
+.product-detail .tab-content .ratting i.fa-star,
+.product-detail .tab-content .ratting i.fa-star-half-o {
+    color: #FFD700 !important;
+}
+
+.product-detail .tab-content .ratting i.fa-star-o {
+    color: #ccc !important;
+}
+
+/* Product item star colors */
+.product-item .product-content .ratting i.fa-star,
+.product-item .product-content .ratting i.fa-star-half-o {
+    color: #FFD700 !important;
+}
+
+.product-item .product-content .ratting i.fa-star-o {
+    color: #ccc !important;
 }
